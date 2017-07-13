@@ -2,7 +2,7 @@
  * Created by lvturner on 13/7/2017.
  */
 'use strict';
-const TickData = require('tick_data');
+const TickData = require('./tick_data');
 
 class QuoteData extends TickData {
   constructor(jsonArray) {
